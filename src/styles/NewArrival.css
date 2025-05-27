@@ -1,0 +1,8 @@
+@media (max-width:425px){
+    .cardcontainer{
+        width:75% !important;
+    }
+    .cc{
+        width: 100% !important;
+    }
+}

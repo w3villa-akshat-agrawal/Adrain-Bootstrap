@@ -1,0 +1,13 @@
+@media (max-width:768px){
+    .heroCardbg{
+        background-color:#F9F9F9;
+        background-image: none !important;
+    }
+    .carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+.carousel-indicators {
+  display: none;
+}
+}

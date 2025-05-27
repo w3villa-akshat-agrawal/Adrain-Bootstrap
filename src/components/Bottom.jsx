@@ -5,7 +5,7 @@ const Bottom = () => {
     <div className='container-fluid border-top '>
         <div className="w-75 m-auto py-4">
             <div className="row">
-                <div className="col d-flex align-items-center gx-3">
+                <div className="col-lg-3  col-12 gy-3 pb-3 col-sm-6 d-flex align-items-center gx-3">
                     <div>
                         <i  class="ri-riding-line text-danger fs-2"></i>
                     </div>
@@ -14,7 +14,7 @@ const Bottom = () => {
                         <span>on all orders above $40</span>
                     </div>
                 </div>
-                 <div className="col d-flex align-items-center gx-5">
+                 <div className="col-lg-3 col-12 gy-3 pb-3 col-sm-6 d-flex align-items-center gx-3">
                     <div>
                         <i  class="ri-riding-line text-danger fs-2"></i>
                     </div>
@@ -23,7 +23,7 @@ const Bottom = () => {
                         <span>on all orders above $40</span>
                     </div>
                 </div>
-                 <div className="col d-flex align-items-center gx-5">
+                 <div className="col-lg-3 col-12 gy-3 pb-3 col-sm-6 d-flex align-items-center gx-3">
                     <div>
                         <i  class="ri-riding-line text-danger fs-2"></i>
                     </div>
@@ -32,7 +32,7 @@ const Bottom = () => {
                         <span>on all orders above $40</span>
                     </div>
                 </div>
-                 <div className="col d-flex align-items-center gx-5">
+                 <div className="col-lg-3 col-12 gy-3 pb-3 col-sm-6 d-flex align-items-center gx-3">
                     <div>
                         <i  class="ri-riding-line text-danger fs-2"></i>
                     </div>

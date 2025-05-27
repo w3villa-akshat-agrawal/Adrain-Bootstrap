@@ -5,33 +5,37 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-
+import "../styles/AdrianNav.css"; // Assuming you have a CSS file for styles
 const AdrianNav = () => {
  return (
-    <div className='conatiner-fluid  py-3 px-2'>
-     <Navbar expand="lg" className=" w-75 m-auto">
+    <div className='conatiner-fluid py-md-3 px-md-2  py-1 px-1 '>
+     <Navbar expand="lg" className=" AdrianNavbar w-75 m-auto">
   <Container>
-    <Navbar.Brand className='text-center' href="#home"><img className='' src="logo.png" alt="adrian" /></Navbar.Brand>
+    <Navbar.Brand className='text-center logo' href="#home"><img className='' src="logo.png" alt="adrian" /></Navbar.Brand>
     
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     
-    <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar.Collapse className='toggler' id="basic-navbar-nav">
       <Nav className=" ms-auto">
-        <Nav.Link href="#home" className='text-danger px-3'>Home</Nav.Link>
-        <Nav.Link href="#link" className='px-3'>About us </Nav.Link>
-        <Nav.Link href="#link" className='px-3'>Page</Nav.Link>
-        <Nav.Link href="#link" className='px-3'>Shop</Nav.Link>
-        <Nav.Link href="#link" className='px-3'>About us </Nav.Link>
-   <Nav.Link as={Link} to="/contact" className='px-3'>Contact Us</Nav.Link>
+        <Nav.Link href="#home" className='text-danger px-3 menu '>Home</Nav.Link>
+        <Nav.Link href="#link" className='px-3 menu'>About us </Nav.Link>
+        <Nav.Link href="#link" className='px-3 menu'>Page</Nav.Link>
+        <Nav.Link href="#link" className='px-3 menu'>Shop</Nav.Link>
+        <Nav.Link href="#link" className='px-3 menu'>About us </Nav.Link>
+   <Nav.Link as={Link} to="/contact" className='px-3 menu'>Contact Us</Nav.Link>
       </Nav>
        <Nav className="ms-auto">
       <Nav.Link href="#home">
-  <div className="bg-secondary rounded-circle px-2 py-1 d-flex align-items-center justify-content-center" >
-    <i className="ri-search-line text-white"></i>
+  <div className="bg-secondary rounded-circle px-2 py-1 d-flex align-items-center justify-content-center btn" >
+    <i className="ri-search-line text-white "></i>
   </div>
 </Nav.Link>
-        <Nav.Link href="#link">   <div className="bg-secondary rounded-circle px-2 py-1 d-flex align-items-center justify-content-center" ><i class="ri-shopping-cart-2-line text-white"></i></div></Nav.Link>
-        <Nav.Link href="#link">   <div className="bg-secondary rounded-circle px-2 py-1 d-flex align-items-center justify-content-center" ><i class="ri-account-circle-2-line text-white"></i></div></Nav.Link>
+        <Nav.Link href="#link">   <div className="bg-secondary rounded-circle px-2 py-1 d-flex align-items-center justify-content-center btn" >
+    <i className="ri-search-line text-white "></i>
+  </div></Nav.Link>
+        <Nav.Link href="#link">   <div className="bg-secondary rounded-circle px-2 py-1 d-flex align-items-center justify-content-center btn" >
+    <i className="ri-search-line text-white "></i>
+  </div></Nav.Link>
 
       </Nav>
     </Navbar.Collapse>

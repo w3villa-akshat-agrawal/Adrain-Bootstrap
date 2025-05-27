@@ -1,11 +1,11 @@
 import React from 'react'
-
+import "../styles/Fotter.css"
 const Fotter = () => {
   return (
     <div className='container-fluid bg-light  py-5'>
         <div className="w-75 m-auto">
             <div className="row">
-                <div className="col-5 d-flex flex-column gap-3 ">
+                <div className="col-12  col-sm-6  pb-5 pb-lg-0  col-lg-5 d-flex flex-column gap-3 text-center text-sm-start ">
                     <div>
                         <img src="logo.png" alt="" />
                     </div>
@@ -15,9 +15,9 @@ const Fotter = () => {
                         Suport Email : support1@gmail.com
                     </span>
                 </div>
-                <div className="col-2 d-flex flex-column align-items-center gap-3  " >
-                    <span className='fw-bold'> Company</span>
-                    <div className='d-flex flex-column align-items-center gap-3'>
+                <div className="col-lg-2  col-sm-6 pb-5 pb-lg-0 col-12 d-flex flex-column  gap-3 text-sm-start  " >
+                    <span className='fw-bold text-sm-start text-center'> Company</span>
+                    <div className='d-flex flex-column footerMenu gap-3'>
                          <span>men fashion</span>
                     <span>women fashion </span>
                     <span>kid fashion</span>
@@ -26,9 +26,9 @@ const Fotter = () => {
                     </div>
 
                 </div>
-              <div className="col-2 d-flex flex-column align-items-center gap-3  " >
-                    <span className='fw-bold'> Useful link</span>
-                    <div className='d-flex flex-column align-items-center gap-3'>
+              <div className="col-lg-2  col-sm-6 pb-5 pb-lg-0 col-12 d-flex flex-column  gap-3 text-sm-start " >
+                    <span className='fw-bold text-sm-start text-center'> Useful link</span>
+                    <div className='d-flex flex-column footerMenu  gap-3'>
                          <span>men fashion</span>
                     <span>women fashion </span>
                     <span>kid fashion</span>
@@ -37,8 +37,8 @@ const Fotter = () => {
                     </div>
 
                 </div>
-                <div className="col-3 d-flex flex-column gap-2">
-                    <span className='fw-bold'>Opening hours</span>
+                <div className="col-lg-3  col-sm-6 pb-0 pb-lg-0 col-12 d-flex flex-column gap-2 text-sm-start">
+                    <span className='fw-bold text-sm-start text-center'>Opening hours</span>
                     <div className='d-flex flex-column gap-1'>
                         <div className='d-flex align-items-center justify-content-between'>
                             <span>

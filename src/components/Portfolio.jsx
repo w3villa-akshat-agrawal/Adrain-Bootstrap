@@ -1,16 +1,16 @@
 import React from 'react'
-
+import "../styles/Portfolio.css"
 const Portfolio = () => {
   return (
-    <div className='container-fluid'>
-        <div className="row w-full"  style={{
+    <div>
+        <div className="row w-full portfoliobg px-md-0 px-2 mx-2 mx-md-0 "  style={{
     minHeight: "50vh",
     backgroundImage: `url('/S2.png')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat"
   }}>
-        <div className="col"></div> 
-        <div className="col d-flex">
+        <div className="col-md-6 "></div> 
+        <div className="col-md-6 col-12 d-flex">
             <div className='d-flex flex-column mt-4'>
                 <span className='bg-light w-75 p-1 ps-4 mb-2'>deal  of the day 50% off</span>
                 <span className='fs-1 mb-3'>Trendy Suit </span>

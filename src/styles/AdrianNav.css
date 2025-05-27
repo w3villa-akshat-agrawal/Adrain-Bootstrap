@@ -1,0 +1,19 @@
+@media (max-width:425px) {
+    .AdrianNavbar{
+        width: 100% !important; 
+    }
+    .logo img{
+        height: 25px !important;
+    }
+    .toggler{
+        font-size: 2rem !important;
+    }
+    .menu{
+        font-size: .9rem;
+        border-bottom: .6px solid rgb(190, 189, 189);
+        font-weight: 700;
+    }
+    .btn{
+        display: none !important;
+    }
+}

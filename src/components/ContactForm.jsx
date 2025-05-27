@@ -40,10 +40,11 @@ const ContactForm = () => {
                     <span className='fs-4 rounded border-0'> contact us </span>
                 </div>
                 </div>
+            
             </div>
         </div>
 
-    </>
+    </>   
   )
 }
 

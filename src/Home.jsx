@@ -25,7 +25,7 @@ const Home = () => {
         <section>
           <Card/>
         </section>
-        <section>
+         <section>
           <NewArrival/>
         </section>
         <section>
@@ -40,9 +40,9 @@ const Home = () => {
         <section>
           <Fotter/>
         </section>
-        <footer>
+        {/* <footer>
           <Copyright/>
-        </footer>
+        </footer> */}
       </main>
     </>
   )
