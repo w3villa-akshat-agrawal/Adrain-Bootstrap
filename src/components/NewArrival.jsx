@@ -1,6 +1,7 @@
 import React from 'react'
 import NewCard from './NewCard'
 import "../styles/NewArrival.css"
+import CARDS from './CARDS.jsx'
 const NewArrival = () => {
   return (
     <div className='container-fluid '>
@@ -10,15 +11,15 @@ const NewArrival = () => {
                 <span className='mb-md-5 mb-3 text-center '>the best online sales to shop these weekend</span>
                 <div className="row gy-3 cardcontainer">
                     <div className="col">
-                        <NewCard/>
+                        <CARDS/>
                     </div>
                     <div className="col-md-4 col-sm-6 col-lg-3  col-12"><NewCard/></div>
-                    <div className="col-md-4 col-sm-6 col-lg-3  col-12"><NewCard/></div>
+                    <div className="col-md-4 col-sm-6 col-lg-3  col-12"><CARDS/></div>
                     <div className="col-md-4 col-sm-6 col-lg-3 col-12"><NewCard/></div>
                     <div className="col-md-4 col-sm-6 col-lg-3 col-12"><NewCard/></div>
-                    <div className="col-md-4 col-sm-6 col-lg-3 col-12"><NewCard/></div>
+                    <div className="col-md-4 col-sm-6 col-lg-3  col-12"><CARDS/></div>
                     <div className="col-md-4  col-sm-6 col-lg-3 col-12"><NewCard/></div>
-                    <div className="col-md-4 col-sm-6 col-lg-3 col-12"><NewCard/></div>
+                     <div className="col-md-4 col-sm-6 col-lg-3  col-12"><CARDS/></div>
                 </div>
             </div>
         </div></div>

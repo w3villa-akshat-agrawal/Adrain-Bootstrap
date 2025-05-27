@@ -31,10 +31,10 @@ const AdrianNav = () => {
   </div>
 </Nav.Link>
         <Nav.Link href="#link">   <div className="bg-secondary rounded-circle px-2 py-1 d-flex align-items-center justify-content-center btn" >
-    <i className="ri-search-line text-white "></i>
+    <i className="ri-login-box-line text-white "></i> 
   </div></Nav.Link>
         <Nav.Link href="#link">   <div className="bg-secondary rounded-circle px-2 py-1 d-flex align-items-center justify-content-center btn" >
-    <i className="ri-search-line text-white "></i>
+    <i className="ri-shopping-cart-line text-white "></i>
   </div></Nav.Link>
 
       </Nav>

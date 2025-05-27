@@ -32,7 +32,7 @@ const BestSeller = () => {
 
                         <div>
                             <div className='d-flex align-items-center mt-2'>
-                                <img style={{height:"50px"}} src="p-1.jpg" alt="" />
+                                <img style={{height:"50px"}} src="p-2.jpg" alt="" />
                                 <div className='d-flex flex-column ps-2'>
                                     <span>keds kickstart pom pom </span>
                                     <span>$50</span>
@@ -45,7 +45,7 @@ const BestSeller = () => {
                         
                         <div>
                             <div className='d-flex align-items-center mt-2'>
-                                <img style={{height:"50px"}} src="p-1.jpg" alt="" />
+                                <img style={{height:"50px"}} src="p-3.jpg" alt="" />
                                 <div className='d-flex flex-column ps-2'>
                                     <span>keds kickstart pom pom </span>
                                     <span>$50</span>
@@ -58,7 +58,7 @@ const BestSeller = () => {
                         
                         <div>
                             <div className='d-flex align-items-center mt-2'>
-                                <img style={{height:"50px"}} src="p-1.jpg" alt="" />
+                                <img style={{height:"50px"}} src="p-7.jpg" alt="" />
                                 <div className='d-flex flex-column ps-2'>
                                     <span>keds kickstart pom pom </span>
                                     <span>$50</span>
@@ -86,7 +86,7 @@ const BestSeller = () => {
                         <span className='border-bottom border-danger fw-bold  '>Best Seller</span>
                         <div>
                             <div className='d-flex align-items-center mt-2'>
-                                <img style={{height:"50px"}} src="p-1.jpg" alt="" />
+                                <img style={{height:"50px"}} src="p-7.jpg" alt="" />
                                 <div className='d-flex flex-column ps-2'>
                                     <span>keds kickstart pom pom </span>
                                     <span>$50</span>
@@ -99,20 +99,7 @@ const BestSeller = () => {
 
                         <div>
                             <div className='d-flex align-items-center mt-2'>
-                                <img style={{height:"50px"}} src="p-1.jpg" alt="" />
-                                <div className='d-flex flex-column ps-2'>
-                                    <span>keds kickstart pom pom </span>
-                                    <span>$50</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                     <div>
-                        
-                        <div>
-                            <div className='d-flex align-items-center mt-2'>
-                                <img style={{height:"50px"}} src="p-1.jpg" alt="" />
+                                <img style={{height:"50px"}} src="p-3.jpg" alt="" />
                                 <div className='d-flex flex-column ps-2'>
                                     <span>keds kickstart pom pom </span>
                                     <span>$50</span>
@@ -125,7 +112,20 @@ const BestSeller = () => {
                         
                         <div>
                             <div className='d-flex align-items-center mt-2'>
-                                <img style={{height:"50px"}} src="p-1.jpg" alt="" />
+                                <img style={{height:"50px"}} src="p-2.jpg" alt="" />
+                                <div className='d-flex flex-column ps-2'>
+                                    <span>keds kickstart pom pom </span>
+                                    <span>$50</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                     <div>
+                        
+                        <div>
+                            <div className='d-flex align-items-center mt-2'>
+                                <img style={{height:"50px"}} src="p-7.jpg" alt="" />
                                 <div className='d-flex flex-column ps-2'>
                                     <span>keds kickstart pom pom </span>
                                     <span>$50</span>
